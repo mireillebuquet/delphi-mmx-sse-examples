@@ -2,7 +2,7 @@ program Project10;
 
 uses
   Forms,
-  Unit42 in 'Unit42.pas' {Form42},
+  Unit42  in 'Unit42.pas' {Form42},
   UBlinearResize in 'UBlinearResize.pas',
   UAssembler in 'UAssembler.pas',
   UAssemblerTest in 'UAssemblerTest.pas' {AssemblerTest};
