@@ -30,7 +30,6 @@ type
     procedure btn6Click(Sender: TObject);
     procedure btn7Click(Sender: TObject);
     procedure btn8Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -969,18 +968,6 @@ end;
 procedure TForm42.Button1Click(Sender: TObject);
 begin
   test2;
-end;
-
-procedure AddByteArrays(Size: Integer; Const Tab1, Tab2; Out Tab3);
-asm
-
-end;
-
-procedure TForm42.FormCreate(Sender: TObject);
-var
-  p: PbyteArray;
-begin
-//
 end;
 
 procedure BGR24ToRGBA32(src, dest : Pointer; pixelCount : Integer); register;
